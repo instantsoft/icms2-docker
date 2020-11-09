@@ -35,4 +35,4 @@ chmod -R 777 $DIR/icms2/cache
 chmod 777 $DIR/icms2/system/config
 
 echo "Starting Docker..."
-# docker-compose up
+docker-compose up
