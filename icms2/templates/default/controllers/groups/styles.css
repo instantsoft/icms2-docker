@@ -1,0 +1,126 @@
+.groups-list .title > a {
+    font-size:18px;
+}
+
+#group_profile {
+    overflow:hidden;
+    clear:both;
+}
+
+#group_profile_title {
+    height:38px;
+    line-height:38px;
+    overflow:hidden;
+    font-size:21px;
+}
+#group_profile_title .logo {
+    float:left;
+    overflow:hidden;
+    padding:2px;
+    border:solid 1px #B3C2C9;
+    margin-right: 10px;
+}
+
+#group_profile_title .logo img { display:block; }
+
+#group_profile_tabs { margin-top:15px; }
+#group_content_pills { margin-bottom: 20px; }
+
+#group_content_list .filter-panel{
+    margin:15px 0;
+    margin-top:0px;
+    border:solid 1px #EDEDED;
+    border-bottom:solid 1px #FFF;
+}
+
+#group_head .group_counts {
+    background: #2b87c3;
+    opacity: .8;
+    padding: 10px 15px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 12px;
+}
+#group_head .group_counts > div {
+    margin: 0 0 10px;
+}
+#group_head .group_counts > div a {
+    color: #FFF;
+}
+#group_head .group_counts > div:last-child {
+    margin-bottom: 0;
+}
+#group_head .share {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+#group_staff_add{
+    margin-bottom: 0;
+}
+
+#group_staff_add .hint {
+    margin-top:-5px;
+    margin-bottom: 5px;
+    color:#B3C2C9;
+}
+
+#group_staff_add .field .input, #group_role_add .field .input {
+    margin-bottom: 5px;
+}
+
+#groups_invite_window { padding:15px; }
+#groups_invite_window h3 { margin-top:0; }
+#groups_invite_window .list { margin-bottom: 10px; }
+
+#group_head {
+    background-color: #333;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 230px;
+    position: relative;
+    margin: -20px -20px 20px;
+}
+
+.groups-list .fields {
+    line-height: 18px;
+    color: #666;
+}
+.groups-list .title_left {
+    display: inline-block;
+    margin-right: 10px;
+}
+.groups-list .title_left + .value {
+    display: inline-block;
+}
+.title.fields_available {
+    line-height: 32px;
+}
+.groups-list .title_top { margin-bottom:5px; }
+#invite_users_form {
+    width: 620px;
+    height: 200px;
+}
+.role_title_edit {
+    display: none;
+}
+.role_title_edit > .input {
+    width: 70%;
+}
+.inline_submit {
+    display: inline-block;
+}
+#group_roles_list .item .title {
+    width: 320px;
+}
+#ivite_users_list #users_profiles_list .item .actions > span {
+    display: none;
+}
+@media screen and (max-width: 640px) {
+    #invite_users_form {
+        width: 580px;
+    }
+}

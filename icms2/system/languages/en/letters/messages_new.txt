@@ -1,0 +1,9 @@
+[subject:New message - {site}]
+
+Hello, {nickname}.
+
+The site «{site}» You received a new private message from <a href="{user_url}">{user_nickname}</a>.
+
+--
+ Best regards, {site}
+ <small>This letter is sent automatically, please do not reply</small>
