@@ -1,1 +1,0 @@
-UPDATE `{#}perms_rules` SET `options` = 'all,other,allow' WHERE `controller` = 'content' AND `name` = 'view_list';
